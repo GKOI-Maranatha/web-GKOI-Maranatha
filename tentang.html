@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GKOI Maranatha</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .navbar .container-fluid {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        /* CSS untuk mengatur posisi teks ke tengah secara vertikal */
+        .centered {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 70vh; /* Membuat tinggi div sesuai tinggi layar */
+            flex-direction: column; /* Menjadikan flex direction menjadi kolom */
+        }
+        /* CSS untuk menambahkan gambar latar belakang */
+        body {
+            background-image: url(''); /* Ganti 'nama_gambar.jpg' dengan nama gambar yang ingin Anda gunakan */
+            background-size: cover; /* Memastikan gambar latar belakang mengisi seluruh area */
+            background-position: center; /* Memposisikan gambar latar belakang di tengah */
+            background-attachment: fixed; /* Membuat gambar latar belakang tetap di tempatnya saat menggulir halaman */
+        }
+        /* CSS untuk mengubah warna teks menjadi putih */
+        .text-white {
+            color: white;
+        }
+        .carousel-item img {
+          max-height: 600px; /* Sesuaikan dengan tinggi yang Anda inginkan */
+          object-fit: cover; /* Membuat gambar diatur dengan baik dalam elemen img */
+        }
+
+    </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark shadow-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">GKOI Maranatha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tentang.html">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kegiatan.html">Kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="kontak.html">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-start px-5 my-5">
+    <h1 class="display-3">Tentang Gereja</h1>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, amet tenetur iure fugiat quisquam neque repellendus animi possimus voluptate explicabo.</p>
+
+    <div class="border"></div>
+
+    <div style="height: 50px;"></div>
+
+    <h1 class="display-4">Visi</h1>
+    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem distinctio officia cupiditate neque sed? Consequuntur, eos harum. Repellendus, autem accusantium. Laudantium neque omnis, nemo natus dolor animi reprehenderit sequi! Dignissimos tempora voluptate possimus doloribus odio consequatur culpa mollitia autem deleniti fugit perferendis, quia atque temporibus labore ab unde sunt eius!</p>
+
+    <h1 class="display-4">Misi</h1>
+    <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex, assumenda ad sint sit in suscipit voluptas eaque autem, debitis voluptatibus cupiditate nisi, illo ipsam. At illo excepturi fugiat aperiam sint. Obcaecati voluptas aperiam quia debitis fuga, minus cumque quod totam blanditiis error ea aut nostrum, eum eos, maxime dolorum. Ullam!</p>
+
+    <div class="border"></div>
+
+    <div style="height: 100px;"></div>
+
+    <h1 class="display-4 text-center text-nowrap">Kepengurusan dan Komisi</h1>
+
+    <div style="height: 100px;"></div>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Komisi Bapak Abraham
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Komisi ini bertanggung jawab untuk memimpin pertumbuhan rohani para pria dalam gereja, dengan menyelenggarakan studi Alkitab, pertemuan doa, retret pria, serta pelayanan masyarakat untuk membangun koneksi erat dan memberikan dukungan dalam perjalanan iman mereka.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Komisi Wanita Abigail
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Komisi ini menawarkan lingkungan yang mendukung dan memperkuat perempuan dalam gereja melalui acara studi Alkitab, pertemuan doa, dan kegiatan sosial, serta terlibat dalam pelayanan misi, pelayanan masyarakat, dan mendukung keluarga dalam kehidupan rohani.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Komisi Pemuda Reformata
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Bertujuan mempersiapkan dan memperkuat pemuda dalam iman mereka serta membantu mereka menerapkan nilai-nilai Alkitab dalam kehidupan sehari-hari, dengan menyelenggarakan pertemuan rutin, acara pelayanan masyarakat, retret pemuda, dan kegiatan rohani yang relevan dengan kebutuhan generasi muda.
+          </div>
+        </div>
+      </div>
+      <!-- Accordion Item #4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Komisi Sekolah Minggu dan Tunas Remaja
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Komisi ini bertanggung jawab atas pembinaan dan pengajaran anak-anak dan remaja dalam gereja melalui kelas-kelas Sekolah Minggu, pertemuan kelompok kecil, dan acara khusus untuk memperkuat iman dan moral mereka, membantu generasi muda mengenal dan memahami firman Tuhan serta menerapkan prinsip-prinsip Kristiani dalam kehidupan mereka sejak dini.
+          </div>
+        </div>
+      </div>
+      <!-- Accordion Item #5 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            Komisi Multimedia & IT
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Komisi ini mengelola aspek teknologi dan media dalam gereja, termasuk merancang dan menjalankan situs web gereja, mengelola media sosial, dan menyediakan dukungan teknis selama ibadah dan acara gereja untuk memastikan pesan gereja dapat diakses secara luas melalui berbagai platform media modern.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div style="height: 100px;"></div>
+
+    <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Ini adalah footer.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Beranda</a></li>
+            <li class="list-inline-item"><a href="tentang.html">Tentang</a></li>
+            <li class="list-inline-item"><a href="kegiatan.html">Kegiatan</a></li>
+            <li class="list-inline-item"><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p>Hak Cipta &copy; 2024. Semua Hak Dilindungi.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
